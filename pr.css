@@ -1,0 +1,232 @@
+    * {
+        font-family: 'Dongle', sans-serif;
+    }
+    
+    body {
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(TryingCss/Background.jfif);*/ 
+        position: relative;
+        background-attachment: fixed;
+        background-size: 100%;
+        margin: 0%;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(TryingCss/SSJBleuGoku.jfif);
+        }
+    }
+    /* Home Page */
+    
+    .card {
+        height: 20em;
+        width: 14rem;
+        /* margin: 30%; */
+        border-radius: 20px;
+    }
+    
+    #logo {
+        height: 60px;
+    }
+    
+    ul {
+        font-size: 30px;
+    }
+    
+    li {
+        padding-right: 50px;
+    }
+    
+    #sea {
+        width: 260px;
+        border-radius: 10px;
+    }
+    
+    #bu {
+        border-color: #8843F2;
+        color: #8843F2;
+        margin-right: 20px;
+    }
+    
+    .row {
+        grid-row-gap: 30px;
+    }
+    
+    .card-img-top {
+        position: relative;
+        height: 320px;
+        width: 100%;
+        cursor: pointer;
+        border: 4px solid rgb(2, 1, 1);
+        border-radius: 3px;
+        cursor: pointer;
+        box-shadow: 4px 5px 6px 6.5px black;
+    }
+    
+    .card {
+        background-image: url(../PROJET-SAAD_OUAIL/TryingCss/attack.png);
+    }
+    
+    #card:hover #card img {
+        filter: grayscale(0);
+        transition: filter 0.6s ease-in-out;
+    }
+    
+    .video-icon {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 40%;
+        top: 40%;
+        display: none;
+        background-image: url(../PROJET-SAAD_OUAIL/TryingCss/playIcon.png);
+        transition: display 1s;
+    }
+    
+    .card:hover .video-icon {
+        display: block;
+    }
+    
+    .card:hover .card-img-top {
+        filter: grayscale(0);
+        transition: filter 0.6s ease-in-out;
+    }
+    /* EPISODES PAGES */
+    
+    #story {
+        background-color: black;
+        opacity: 0.6;
+        height: 400px;
+        color: rgb(92, 92, 92);
+        font-style: oblique;
+        display: flex;
+        padding: 10px;
+        font-size: 20px;
+    }
+    /* #ran,
+    #rann, */
+    /* #rannn:hover {
+        color: #8843F2;
+    }
+     */
+    
+    .span {
+        margin: 30px;
+        text-justify: inter-word
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        #story {
+            height: 820px;
+        }
+        .img {
+            width: 150px;
+            height: 200px;
+            margin: 10px;
+        }
+        .span {
+            margin: 10px
+        }
+        #ep {
+            height: 350px;
+        }
+    }
+    
+    #story:hover {
+        opacity: 0.9;
+    }
+    
+    .img {
+        border-radius: 10px;
+        margin: 20px;
+    }
+    
+    #ep {
+        width: 80%;
+        height: 700px;
+        margin-left: 10%;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    /* LOGIN/SIGN UP PAGE */
+    
+    #diiv {
+        position: absolute;
+        width: 50%;
+        height: 500px;
+        top: 250px;
+        left: 26%;
+        border: 3px solid yellow;
+        border-top: none;
+        background-color: black;
+        opacity: 0.7;
+        margin-bottom: 20px;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .logsign {
+        display: flex;
+    }
+    
+    #sign {
+        border-right: 2px solid gray;
+    }
+    
+    .logsign a {
+        width: 50%;
+        height: 40px;
+        padding: 8px;
+        font-size: large;
+        font-weight: bold;
+        color: #7A0BC0;
+        background-color: rgb(255, 251, 1);
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #ifrsl {
+        width: 100%;
+        height: 360px;
+        border: none;
+    }
+    /* .inlog {
+        width: 60%;
+        border: none;
+        margin-left: 20%;
+        border-bottom: 2px solid #8843F2;
+        border-radius: 7px;
+    }
+    
+    #log {
+        width: 60%;
+        height: 25px;
+        margin: 10px;
+        margin-left: 20%;
+        border: none;
+        border-radius: 5px;
+    } */
+    
+    #video_in iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    ::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+
+
+
+    video{
+        
+        width: 100%;
+        height: 1080px;
+        position: absolute;
+        position: fixed;
+        
+        
+    }
+    

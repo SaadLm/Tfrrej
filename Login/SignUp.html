@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input {
+        margin-left: 35%;
+        border: none;
+        width: 37%;
+        height: 30px;
+        background-color: blueviolet;
+        opacity: 0.4;
+    }
+    
+     ::placeholder {
+        color: aliceblue
+    }
+    
+    body {
+        height: 100%;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .btn {
+        background-color: yellow;
+        border-radius: 3px;
+    }
+</style>
+
+<body>
+    //
+    <?php
+    //    $host='localhost';
+    //    $user='root';
+    //    $pass='';
+    //    $db='login';
+    //    $con=mysqli_connect($host,$user,$pass,$db);
+    //    $res=mysqli_query($con,"select * from sign")
+    //    $nom=''
+    //    $prenom='';
+    //    $email='';
+    //    $pass='';
+    //    if(isset($_POST['nom']))
+    //    {
+    //        $nom=$_POST['nom']
+    //    }
+    //    if(isset($_POST['prenom']))
+    //    {
+    //        $prenom=$_POST['prenom']
+    //    }
+    //    if(isset($_POST['email']))
+    //    {
+    //        $email=$_POST['email']
+    //    }
+    //    if(isset($_POST['pass']))
+    //    {
+    //        $pass=$_POST['pass']
+    //    }
+    //    $sqls='';
+    //    if(isset($_POST['add']))
+    //    {
+    //        $sqls="insert into sign value('$nom','$prenom','$email','$pass')"
+    //        mysqli_query($con,$sqls)
+    //    }
+//
+    //?>
+        <br><br><br><br>
+        <form method='POST'>
+            <div style="display:flex;">
+                <input type='text' class='inlog' required name='nom' placeholder="Enterez votre Nom :" style="width:17%"><br><br>
+                <input type='text' class='inlog' required name='prenom' placeholder="Enterez votre Prenom :" style="margin-left: 20px;width:16%">
+            </div>
+            <br>
+            <input type='text' class='inlog' required name='email' placeholder="Enterez votre Email :"><br><br>
+            <input type='password' class='inlog' required id='a' name='password' placeholder="Enterez votre Password :"><br><br>
+            <input type='password' class='inlog' required id='b' onkeyup='Veri()' placeholder="Confirmer votre Password :"><br><br>
+            <input type='button' name='add' class='btn' value="Sign Up"><br>
+        </form>
+        <script>
+            // function Veri() {
+            //     var a = document.getElementById('a');
+            //     var b = document.getElementById('b');
+            //     if (a.value == b.value) {
+            //         a.style.outline - style = 'outset;';
+            //         a.style.outline - color = 'green;';
+            //         b.style.outline - style = 'outset;';
+            //         b.style.outline - color = 'green;';
+            //     } else {
+            //         allert('yahoooooo rani dayez')
+            //         a.style.outline - style = 'outset;';
+            //         a.style.outline - color = 'red;';
+            //         b.style.outline - style = 'outset;';
+            //         b.style.outline - color = 'red;';
+            //     }
+            // }
+        </script>
+</body>
+
+</html>
